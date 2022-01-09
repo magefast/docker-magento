@@ -149,7 +149,8 @@ mkdir ~/Sites/magento
 cd $_
 
 # Run this automated one-liner from the directory you want to install your project.
-curl -s https://raw.githubusercontent.com/markshust/docker-magento/master/lib/onelinesetup | bash -s -- magento.test 2.4.3-p1
+curl -s https://
+/docker-magento/master/lib/onelinesetup | bash -s -- magento.test 2.4.3-p1
 ```
 
 The `magento.test` above defines the hostname to use, and the `2.4.3-p1` defines the Magento version to install. Note that since we need a write to `/etc/hosts` for DNS resolution, you will be prompted for your system password during setup.
@@ -177,7 +178,7 @@ mkdir ~/Sites/magento
 cd $_
 
 # Download the Docker Compose template:
-curl -s https://raw.githubusercontent.com/markshust/docker-magento/master/lib/template | bash
+curl -s https://raw.githubusercontent.com/magefast/docker-magento/master/lib/template | bash
 
 # Download the version of Magento you want to use with:
 bin/download 2.4.3-p1
