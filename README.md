@@ -511,7 +511,7 @@ Find more info [here](https://devdocs.magento.com/mftf/docs/getting-started.html
 
 This course is sponsored by <a href="https://m.academy" target="_blank">M.academy</a>, the simplest way to learn Magento.
 
-<a href="https://m.academy" target="_blank"><img src="https://raw.githubusercontent.com/markshust/docker-magento/master/docs/macademy-logo.png" alt="M.academy"></a>
+<a href="https://m.academy" target="_blank"><img src="https://raw.githubusercontent.com/magefast/docker-magento/master/docs/macademy-logo.png" alt="M.academy"></a>
 
 ### Mark Shust
 
