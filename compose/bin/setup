@@ -70,7 +70,7 @@ bin/clinotty bin/magento setup:install \
   --session-save-redis-log-level=4 \
   --session-save-redis-db=2 \
   --search-engine=elasticsearch7 \
-  --elasticsearch-host=http://localhost \
+  --elasticsearch-host=host.docker.internal \
   --elasticsearch-port=9200 \
   --use-rewrites=1
 
