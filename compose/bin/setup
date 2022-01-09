@@ -21,13 +21,13 @@ docker-compose -f docker-compose.yml up -d
 bin/clinotty chmod u+x bin/magento
 rm -rf src && mkdir src
 
-echo "Waiting for connection to Elasticsearch..."
-bin/clinotty timeout 100 bash -c "
-    until curl --silent --output /dev/null http://$ES_HOST:$ES_PORT/_cat/health?h=st; do
-        printf '.'
-        sleep 2
-    done"
-[ $? != 0 ] && echo "Failed to connect to Elasticsearch" && exit
+#echo "Waiting for connection to Elasticsearch..."
+#bin/clinotty timeout 100 bash -c "
+#    until curl --silent --output /dev/null http://$ES_HOST:$ES_PORT/_cat/health?h=st; do
+#        printf '.'
+#        sleep 2
+#    done"
+#[ $? != 0 ] && echo "Failed to connect to Elasticsearch" && exit
 
 echo ""
 echo "Waiting for connection to RabbitMQ..."
